@@ -8,9 +8,9 @@ import java.util.List;
 @Service
 public class MovieService {
     @Autowired
-    static
+    
     MovieRepository movieRepository;
-    public static Movie findMovie(String name) {
+    public Movie findMovie(String name) {
         return movieRepository.findMovie(name);
 
     }
